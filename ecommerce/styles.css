@@ -1,0 +1,89 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.navbar-brand img {
+    max-height: 50px;
+    transition: transform 0.2s;
+}
+
+.navbar-brand img:hover {
+    transform: scale(1.05);
+}
+
+#products .card {
+    margin-bottom: 30px;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.modal-body {
+    max-height: 60vh;
+    overflow-y: auto;
+}
+
+.badge {
+    position: relative;
+    top: -10px;
+    right: 10px;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+h4 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+a {
+    color: #b16999;
+    text-decoration: none;
+}
+
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #343a40;
+    color: #ffffff;
+}
+
+@media (max-width: 576px) {
+    .card-img-top {
+        height: 150px;
+    }
+
+    h2 {
+        font-size: 1.75rem;
+    }
+
+    h4 {
+        font-size: 1.25rem;
+    }
+
+    .navbar-brand {
+        font-size: 1.25rem;
+    }
+
+    .navbar-brand img {
+        max-height: 40px;
+    }
+}
